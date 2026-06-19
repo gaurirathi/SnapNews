@@ -30,7 +30,7 @@ const InfoHeader= function(){
     return (
         <Container>
             <Text>
-                For the beat experience use inshorts app on your smartphone
+                For the best experience, use the inshorts app on your smartphone
             </Text>
             <Box style={ {display:'flex' ,marginLeft:'auto'}}>
                 <Image src={appleStore} alt='appleStore '/>

@@ -10,13 +10,14 @@ const MenuIcon=styled(Menu)`
 color:#000;
 `
 const Image=styled('img')({
-    height: 55,
-    margin: 'auto',
+    height: 180,
+    margin: '0 auto',
+    marginTop: '-8 px',
     paddingRight: 70
 })
 
 const Header=function(){
-    const url = 'https://assets.inshorts.com/website_assets/images/logo_inshorts.png';
+    const url = '/applogo.png';
     return(
         <StyledHeader position='static'>
             <Toolbar>
